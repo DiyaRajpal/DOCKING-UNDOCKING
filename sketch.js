@@ -3,10 +3,10 @@ var iss,spaceCraft;
 var issImg,spaceBgImg,spaceCraftImg1,spaceCraftImg2,spaceCraftImg3,spaceCraftImg4;
 
 function preload(){
-  issImg = loadImage("Diss.png");  
+  issImg = loadImage("iss.png");  
   spaceBgImg = loadImage("spacebg.jpg");
   spaceCraftImg1 = loadImage("spacecraft1.png");
-  spaceCraftImg2 = loadImage("pacecraft2.png");
+  spaceCraftImg2 = loadImage("spacecraft2.png");
   spaceCraftImg3 = loadImage("spacecraft3.png");
   spaceCraftImg4 = loadImage("spacecraft4.png");
 }
