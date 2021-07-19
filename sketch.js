@@ -43,10 +43,12 @@ function draw() {
        }
   }
 
-  if(spaceCraft.isTouching(iss)){
+  if(spaceCraft.y<=(iss.y+70) && spaceCraft.x<=(iss.x-10)){
       hasDocked=true;
-      text("Docking Successful!",400,500);
-  }
+      fill("white");
+      textSize(30);
+      text("Docking Successful!",200,350);
+   }
 
   drawSprites();
 }
